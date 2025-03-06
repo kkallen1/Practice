@@ -2,8 +2,8 @@
 
 此資料夾中的資料內容都是 **技藝競賽 程式設計** 每個年度的術科題目練習
 
-- 技藝競賽網站 `https://sci-me.k12ea.gov.tw/`
-- 此專案網址 `https://github.com/kkallen1/Practice`
+- 技藝競賽網站 https://sci-me.k12ea.gov.tw/
+- 此專案網址 https://github.com/kkallen1/Practice
 
 目錄:
 ```
