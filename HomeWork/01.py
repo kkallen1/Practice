@@ -11,4 +11,9 @@ for _ in range(n):
     L.append([a,b])
     L1.append(a**2 + b**2)
 
-print(*L[L1.index(max(L1))])
+for i in range(m):
+    if i == m-1:
+        print(*L[L1.index(max(L1))])
+        break
+    L.remove(L[L1.index(max(L1))])
+    L1.remove(L1[L1.index(max(L1))])
