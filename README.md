@@ -2,8 +2,9 @@
 
 此資料夾中的資料內容都是 **技藝競賽 程式設計** 每個年度的術科題目練習
 
-- 技藝競賽網站 https://sci-me.k12ea.gov.tw/
-- 此專案網址 https://github.com/kkallen1/Practice
+- 技藝競賽網站   ： https://sci-me.k12ea.gov.tw/
+- 此專案網址     ： https://github.com/kkallen1/Practice
+- Notion 筆記網址： https://scalloped-seeder-33b.notion.site/1b0c226cd97980d4afeff59f4e77a58a?pvs=4
 
 ---
 
