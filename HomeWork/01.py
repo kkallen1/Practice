@@ -11,4 +11,4 @@ for _ in range(n):
     L.append([a,b])
     L1.append(a**2 + b**2)
 
-print(L[L1.index(max(L1))])
+print(*L[L1.index(max(L1))])
