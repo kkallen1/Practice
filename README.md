@@ -24,6 +24,8 @@
   ├── I.py        # 題目I
   ├── J.py        # 題目J
   ├── K.py        # 題目K
+  ├── O.py        # 題目O
+  ├── O1.py       # 題目O，他人撰寫，使用Stack
   └── 尚未撰寫
 ├── HomeWorK/     # 回家作業
   └── 01.py       # zerojudge m391 改
