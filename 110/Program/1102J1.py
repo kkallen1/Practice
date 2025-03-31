@@ -1,3 +1,27 @@
+# AC code
+def f(n):
+    if n%2 == 0:
+        while n%2 == 0:
+            n//=2
+
+    if n%3 == 0:
+        while n%3 == 0:
+            n//=3
+
+    if n%5 == 0:
+        while n%5 == 0:
+            n//=5
+    
+    return True if (n == 1) else False
+
+n = int(input())
+L = [int(x) for x in input().split()]
+for i in L:
+    if f(i):
+        print("True")
+    else:
+        print("False")
+
 # TLE code
 def f(n):
     ans = []
