@@ -7,7 +7,7 @@ for _ in range(n):
     for i in range(0, 20, 2):
         Sum += int( (L[i]+L[i+1]), 16)
 
-    # 若長度>4  =>  超過 2 Byte  =>  進位的再加回來
+    # 若超過16位（2^16 = 65535）  =>  進位的再加回來
     if Sum > 0xffff:
         Sum = Sum + Sum//0x10000
     
