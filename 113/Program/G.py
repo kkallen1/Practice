@@ -1,3 +1,15 @@
+# 01
+List = []
+r, c = map(int, input().split())
+for i in range(r):
+    List.append( [x for x in input().split()] )
+
+for i in range(c):
+    for kk in List:
+        print(kk[i], end=" ")
+    print()
+
+# 02
 m, n = map(int, input().split())
 List = [[0]*m for _ in range(n)]
 for i in range(m):
