@@ -1,3 +1,14 @@
+# 使用內建符號
+for _ in range( int(input()) ):
+    ip, netmask = input().split("/")
+    ip, netmask = list( map(int, ip.split(".")) ), list( map(int, netmask.split(".")) )
+    print(ip, netmask)
+
+    for i in range(3):
+        print(256+(( ip[i] )|( ~netmask[i] )), end=".")
+    print(256+ ( ( ip[3] )|( ~netmask[3] ) ) )
+
+# 不使用內建符號
 for _ in range( int(input()) ):
     # IP, 子網路遮罩
     a, b = input().split("/")
