@@ -1,3 +1,4 @@
+# APCS 2017 10月 第2題 交錯字串
 # zj c462
 # https://yuihuang.com/zj-c462/
 
