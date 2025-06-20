@@ -1,4 +1,6 @@
 """
+疑似 CPE 2025/5/20 題目
+
 zj c074
 1. 使用 itertools 的 combinations。(指定長度的組合，類似 C a取b)
 2. 排列組合的長度固定為 6
